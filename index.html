@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Placement Portal</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f6fb;
+            color: #243247;
+        }
+        header {
+            background: #173b70;
+            color: white;
+            text-align: center;
+            padding: 28px 16px;
+        }
+        nav {
+            background: #10294d;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+        }
+        main {
+            max-width: 1000px;
+            margin: 24px auto;
+            padding: 0 16px;
+        }
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #00000012;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 14px;
+        }
+        .stat {
+            background: #e7efff;
+            padding: 18px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .stat strong {
+            display: block;
+            color: #173b70;
+            font-size: 26px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #d8dfeb;
+            padding: 11px;
+            text-align: left;
+        }
+        th { background: #e7efff; }
+        footer {
+            background: #10294d;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Placement Portal</h1>
+        <p>Connecting students with career opportunities</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#statistics">Placement Statistics</a>
+        <a href="#companies">Companies</a>
+        <a href="#drives">Recruitment Drives</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About the Placement Cell</h2>
+            <p>
+                The Placement Cell supports students in preparing for careers
+                through training, career guidance, internships and recruitment
+                opportunities with industry partners.
+            </p>
+        </section>
+
+        <section id="statistics">
+            <h2>Placement Statistics</h2>
+            <div class="stats">
+                <div class="stat"><strong>500+</strong>Students Placed</div>
+                <div class="stat"><strong>80+</strong>Recruiting Companies</div>
+                <div class="stat"><strong>12 LPA</strong>Highest Package</div>
+                <div class="stat"><strong>6 LPA</strong>Average Package</div>
+            </div>
+            <p>These figures are sample data for this demonstration portal.</p>
+        </section>
+
+        <section id="companies">
+            <h2>Recruiting Companies</h2>
+            <p>Example recruiters: Infosys, TCS, Wipro, Accenture and Capgemini.</p>
+        </section>
+
+        <section id="drives">
+            <h2>Upcoming Recruitment Drives</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Opportunity</th>
+                        <th>Eligibility</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Example Technologies</td>
+                        <td>Software Engineer</td>
+                        <td>Final-year students</td>
+                        <td>Registration Open</td>
+                    </tr>
+                    <tr>
+                        <td>Sample Systems</td>
+                        <td>Graduate Trainee</td>
+                        <td>Eligible graduating students</td>
+                        <td>Coming Soon</td>
+                    </tr>
+                    <tr>
+                        <td>Campus Digital</td>
+                        <td>Web Developer Intern</td>
+                        <td>Students with web skills</td>
+                        <td>Registration Open</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact the Placement Cell</h2>
+            <p>Email: placement@example.edu</p>
+            <p>Office: Training and Placement Department</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Student Placement Portal | DevOps Assessment Project</p>
+    </footer>
+</body>
+</html>
